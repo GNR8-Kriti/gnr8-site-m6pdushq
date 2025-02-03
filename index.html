@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster - Your Ultimate Todo App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="logo">TaskMaster</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Transform Your Productivity</h1>
+                <p>Master your tasks with our intuitive solution</p>
+                <a href="#" class="cta-button">Start Now</a>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder"></div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <h2>Why Choose TaskMaster?</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="card-icon"></div>
+                    <h3>Smart Task Management</h3>
+                    <p>Organize and prioritize tasks with ease</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon"></div>
+                    <h3>Real-time Sync</h3>
+                    <p>Access your tasks across all devices</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon"></div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Track your progress with detailed insights</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="todo-app" class="todo-section">
+            <h2>Start Managing Tasks</h2>
+            <div class="todo-container">
+                <div class="input-group">
+                    <input type="text" id="new-task" placeholder="Add a new task" aria-label="New task input">
+                    <button id="add-task" class="btn-primary">Add Task</button>
+                </div>
+                <div id="task-list" class="task-list"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer-content">
+            <div class="footer-item">
+                <h4>TaskMaster</h4>
+                <p>Empowering productivity since 2023</p>
+            </div>
+            <div class="footer-item">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 TaskMaster. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
